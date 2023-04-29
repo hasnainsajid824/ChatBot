@@ -1,0 +1,222 @@
+{"intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "I want help.",
+          "I want you to help.",
+          "Help me.",
+          "Please Help.",
+          "Help"
+        ],
+        "responses": [
+          "What can I do for you?",
+          "How can I help?",
+          "My pleasure, What do you want?"
+        ]
+      },
+      {
+        "tag": "self",
+        "patterns": [
+          "Who are you?",
+          "What are you ?",
+          "Who made you?",
+          "What is your purpose?",
+          "Why should I use you?"
+        ],
+        "responses": [
+          "I am UBot designed to help students with their queries.",
+          "I am UBOT designed using machine learing to help you"
+        ]
+      },
+      {
+        "tag": "salam",
+        "patterns": [
+          "assalam o alaikum",
+          "assalam-o-alaikum",
+          "aoa"
+        ],
+        "responses": [
+          "walaikum assalam"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Good Bye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "admission",
+        "patterns": [
+          "When does admissions open?",
+          "What is the date when admission opens?"
+        ],
+        "responses": [
+          "Admissions open in Fall and Spring, after the result anouncement.",
+          "Admissions will open after the result anouncement."
+        ]
+      },
+      {
+        "tag": "Moellim Block",
+        "patterns": [
+          "My Moellim is blocked.",
+          "Why Moellim is not opening",
+          "Unable to use my Moellim",
+          "Please open my moellim."
+        ],
+        "responses": [
+          "Your Moellim may be block due to unpaid dues.",
+          "You may have remaining dues. Please pay your fees"
+        ]
+      },
+      {
+        "tag": "Timings",
+        "patterns": [
+          "What is the University Timings?",
+          "When does University Open?",
+          "University Opening hours.",
+          "When to visit University."
+        ],
+        "responses": [
+          "University Timings are 8:00 AM to 4:00 PM.",
+          "University remains open till 4:00 PM",
+          "University is open unitll 4:00 PM"
+        ]
+      },
+      {
+        "tag": "Schedule",
+        "patterns": [
+          "What is my Timetable ?",
+          "When are my classes ?",
+          "Where are my classeses?",
+          "When does Exam starts ?"
+        ],
+        "responses": [
+          "Please, Contact your Coordinator.",
+          "University remains open till 4:00 PM",
+          "University is open unitll 4:00 PM"
+        ]
+      },
+      {
+        "tag": "admission requirement",
+        "patterns": [
+          "What are the Admissions requirement?",
+          "What is required for admission?",
+          "How much marks are needed for Admission?"
+        ],
+        "responses": [
+          "You need 2 Copies of CNIC, Father's CNIC, Metric or Olevel and Intermediate or Alevel Result.",
+          "You need atleast 60 % marks to get Admission"
+        ]
+      },
+      {
+        "tag": "fee amount",
+        "patterns": [
+          "how much is fee?",
+          "Is this University expensive?",
+          "What is the fee structure ?"
+        ],
+        "responses": [
+          "Please check our Website.",
+          "Please Contact your related Admission Department about the Fee Structure"
+        ]
+      },
+      {
+        "tag": "Fee Issue",
+        "patterns": [
+          "I have fees issue.",
+          "My fees has not been updated",
+          "Please resolve my fee issue.",
+          "Please updated my dues."
+        ],
+        "responses": [
+          "Please contact Finance Department.",
+          "Please generate a ticket on Vdesk.",
+          "Email your fee problem to Finance Department."
+        ]
+      },
+      {
+        "tag": "Transcript",
+        "patterns": [
+          "I want my transcript.",
+          "Issue me transcript."
+        ],
+        "responses": [
+          "Please contact Student Services Department.",
+          "Contact your Program Incharge.",
+          "Please generate a ticket on Vdesk."
+        ]
+      },
+      {
+        "tag": "Result",
+        "patterns": [
+          "I want my report card.",
+          "Issue me result.",
+          "I want my result.",
+          "What are my grades",
+          "I want my grades."
+        ],
+        "responses": [
+          "Please contact Student Services Department.",
+          "Contact your Program Incharge.",
+          "Please generate a ticket on Vdesk."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag" : "Rules",
+        "patterns": [
+         "What is dress-code?"
+        ],
+        "response" : [
+          "All students Must be Presentable in formal clothing  except for Frday.\n Clothes must not have any kind of pictures or qoutes.\n  All students must wear student card at all times \n Only Educational Games are allowed \n Smoking of any kind is not allowed on university premisis \n "
+        ]
+      },
+    {
+      "tag": "Extra Curricular",
+      "patterns": [
+        "What Extra Curricular activities University is providing?",
+        "Are there any physical games or activities in University?"
+      ],
+      "response": [
+        "Sports Club \n,Drama Society \n,Media society \n,IT club \n,Blood Donation society \n, E-Gaming club \n,Computer Innovation Club \n"
+      ]
+    }
+    ]
+  }
